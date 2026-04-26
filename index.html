@@ -6,52 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="images/logo2.png" type="images/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 
     <title>Fall Out Boy Video Gallery</title>
+
 </head>
 
 <body>
     <header>
-        <img src="http://picsum.photos/200" alt="Logo Image">
+        <img src="images/logo2.png" alt="Logo Image">
         <h2>Fall Out Boy Video Gallery</h2>
     </header>
     <nav id="nav_list">
         <ul>
-            <li>video1</li>
-            <li>video2</li>
-            <li>video3</li>
-            <li>video4</li>
-            <li>video5</li>
+            <li><a href="#vid1">Victoria's Secret Fashion Show 2013 with "Fall Out Boy" </a></li>
+            <li><a href="#vid2">Fall Out Boy - Dance, Dance (Official Music Video)</a></li>
+            <li><a href="#vid3">Fall Out Boy - Sugar, We're Goin Down (Official Music Video)</a></li>
+            <li><a href="#vid4">Fall Out Boy - Thnks fr th Mmrs (Official Music Video)</a></li>
+            <li><a href="#vid5">Fall Out Boy - Immortals (From "Big Hero 6")</a></li>
         </ul>
     </nav>
     <main>
         <section>
             <article id="vid1">
-                <h4></h4>
-                <videowrapper class="caption"><iframe 
-                        src="https://www.youtube.com/embed/0pX1RpvZ8Pc?si=WFsxAd1GHsh2tLc1" title="YouTube video player"
-                        frameborder="0"
+                <h4 id="first">Victoria's Secret Fashion Show 2013 with "Fall Out Boy" </h4>
+                <div class='videowrapper'><iframe src="https://www.youtube.com/embed/0pX1RpvZ8Pc?si=WFsxAd1GHsh2tLc1"
+                        title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></videowrapper>
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption"> Fall Out Boy and Taylor Swift performing at the 2013 Victoria Secret Fashion Show.
+                </div>
             </article>
             <article id="vid2">
-                <h4></h4>
-                <videowrapper class="caption"></videowrapper>
+                <h4>Fall Out Boy - Dance, Dance (Official Music Video)</h4>
+                <div class="videowrapper"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/C6MOKXm8x50?si=g9L_2U7EZaL0lppV" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption">Official video for Fall Out Boy "Dance, Dance" from the 2005 album, From Under the
+                    Cork Tree.</div>
             </article>
             <article id="vid3">
-                <h4></h4>
-                <videowrapper class="caption"></videowrapper>
+                <h4>Fall Out Boy - Sugar, We're Goin Down (Official Music Video)</h4>
+                <div class="videowrapper"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/uhG-vLZrb-g?si=EqocUdZ7XArekVsU" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption">Official video for Fall Out Boy “Sugar, We&apos;re Goin Down” from the 2005 album,
+                    From
+                    Under the Cork Tree.</div>
             </article>
             <article id="vid4">
-                <h4></h4>
-                <videowrapper class="caption"></videowrapper>
+                <h4>Fall Out Boy - Thnks fr th Mmrs (Official Music Video)</h4>
+                <div class="videowrapper"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/onzL0EM1pKY?si=5WwD70YiH2L8Tfbw" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption">Official video for Fall Out Boy “Thnks fr th Mmrs” from the 2007 album,
+                    &apos;Infinity on High&apos;. </div>
             </article>
             <article id="vid5">
-                <h4></h4>
-                <videowrapper class="caption"></videowrapper>
+                <h4>Fall Out Boy - Immortals (From "Big Hero 6")</h4>
+                <div class="videowrapper"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/l9PxOanFjxQ?si=2T3GdZOdjV9wx7fs" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption">Official video for Fall Out Boy “Immortals” from Disney&apos;s &apos;Big Hero
+                    6&apos; (inspired by the Marvel comic).</div>
             </article>
         </section>
     </main>
+    <div><button id="cornerBtn" class="return-to-top" title="Return to Top" onclick="topFunction()"><img
+                src="images/back-to-top-icon-png-7.jpg" alt="Return to Top Button"></button></div>
     <footer>
         <p>&copy;<span id="copyrightyear"></span> Brailyn McGuire</p>
     </footer>
